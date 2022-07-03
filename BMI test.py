@@ -10,7 +10,8 @@ elif BMI <= 25.0:
     print("Normal")
 elif BMI <= 30.0:
     print("Overweight")
-else:
+elif BMI <= 45.0:
     print("Obese")
+else:
+    print("hello world")
 
-    
